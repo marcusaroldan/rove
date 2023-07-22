@@ -122,7 +122,7 @@ class ROVE_params(object, metaclass=ABCMeta):
         try:
             sample_stop_lat = stops.loc[0, 'stop_lat']
             sample_stop_lon = stops.loc[0, 'stop_lon']
-            geolocator = Nominatim(user_agent="geoapiExercises")
+            geolocator = Nominatim(user_agent="marcusaroldan@gmail.com")
             loc = geolocator.reverse(str(sample_stop_lat) + "," + str(sample_stop_lon), timeout=10)
             add = loc.raw['address']
             country_code = add.get('country_code').upper()
