@@ -19,4 +19,4 @@ Amsterdam                       |  Rotterdam
 
 Den Haag (The Hague)                                |  Utrecht
 :------------------------------------------------:|:-------------------------------------------:
-![](images/examples/OV_Den_Haag_July_2023.PNG) |  ![](images/examples/OV_Utrecht_July_2023)
+![](images/examples/OV_Den_Haag_July_2023.PNG) |  ![](images/examples/OV_Utrecht_July_2023.PNG)
