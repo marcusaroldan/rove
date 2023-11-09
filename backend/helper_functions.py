@@ -47,6 +47,8 @@ def day_list_generation(raw_date_list:List, date_type:str, iso3166_code:str):
     """
     
     # find the appropriate workalendar class based on sample coordinate
+#     logger.info(iso3166_code)
+#     logger.info(registry.get(iso3166_code))
 
     calendar = registry.get(iso3166_code)()
 

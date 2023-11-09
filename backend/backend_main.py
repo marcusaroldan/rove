@@ -11,13 +11,13 @@ import sys
 # from parameters.generic_csv_data import CSV_DATA
 
 # -----------------------------------PARAMETERS--------------------------------------
-AGENCY = "MBTA" # CTA, MBTA, WMATA
+AGENCY = "OV" # CTA, MBTA, WMATA
 MONTH = "07" # MM in string format
 YEAR = "2023" # YYYY in string format
 START_DATE = '' # YYYY-MM-DD
 END_DATE = '' # YYYY-MM-DD
 DATE_TYPE = "Workday" # Workday, Saturday, Sunday
-DATA_OPTION = 'GTFS-AVL' # GTFS, GTFS-AVL
+DATA_OPTION = 'GTFS' # GTFS, GTFS-AVL
 
 SHAPE_GENERATION = True # True/False: whether to generate shapes
 METRIC_CAL_AGG = True # True/False: whether to run metric calculation and aggregation

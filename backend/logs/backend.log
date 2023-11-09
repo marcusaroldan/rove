@@ -929,3 +929,1196 @@ dtype: int64
 05/21/2023 06:27:52 PM -0400 - backendLogger - DEBUG - Parent directory already exists: data\WMATA\metrics.
 05/21/2023 06:28:12 PM -0400 - backendLogger - DEBUG - Parent directory already exists: frontend\static\inputs\WMATA.
 05/21/2023 06:28:13 PM -0400 - backendLogger - INFO - ROVE backend process completed
+07/22/2023 02:00:27 PM +0200 - backendLogger - INFO - Starting ROVE backend processes for MBTA, 07-2023, Workday, GTFS mode. Shape Generation: True. Metric Calculation and Aggregation: True.
+07/22/2023 02:00:27 PM +0200 - backendLogger - INFO - Generating ROVE parameters...
+07/22/2023 02:00:27 PM +0200 - backendLogger - WARNING - Frontend config file not found. Creating a default frontend config file.
+07/22/2023 02:00:27 PM +0200 - backendLogger - DEBUG - Parent directory already exists: frontend\static\inputs\MBTA.
+07/22/2023 02:00:27 PM +0200 - backendLogger - WARNING - Backend config file not found. Creating a default backend config file.
+07/22/2023 02:00:27 PM +0200 - backendLogger - DEBUG - Created parent directory: data\MBTA.
+07/22/2023 02:03:34 PM +0200 - backendLogger - INFO - Starting ROVE backend processes for MBTA, 07-2023, Workday, GTFS mode. Shape Generation: True. Metric Calculation and Aggregation: True.
+07/22/2023 02:03:34 PM +0200 - backendLogger - INFO - Generating ROVE parameters...
+07/22/2023 02:03:34 PM +0200 - backendLogger - WARNING - Frontend config file not found. Creating a default frontend config file.
+07/22/2023 02:03:34 PM +0200 - backendLogger - DEBUG - Parent directory already exists: frontend\static\inputs\MBTA.
+07/22/2023 02:03:34 PM +0200 - backendLogger - WARNING - Backend config file not found. Creating a default backend config file.
+07/22/2023 02:03:34 PM +0200 - backendLogger - DEBUG - Parent directory already exists: data\MBTA.
+07/22/2023 02:04:30 PM +0200 - backendLogger - INFO - Starting ROVE backend processes for MBTA, 07-2023, Workday, GTFS mode. Shape Generation: True. Metric Calculation and Aggregation: True.
+07/22/2023 02:04:30 PM +0200 - backendLogger - INFO - Generating ROVE parameters...
+07/22/2023 02:04:30 PM +0200 - backendLogger - WARNING - Frontend config file not found. Creating a default frontend config file.
+07/22/2023 02:04:30 PM +0200 - backendLogger - DEBUG - Parent directory already exists: frontend\static\inputs\MBTA.
+07/22/2023 02:04:30 PM +0200 - backendLogger - WARNING - Backend config file not found. Creating a default backend config file.
+07/22/2023 02:04:30 PM +0200 - backendLogger - DEBUG - Parent directory already exists: data\MBTA.
+07/22/2023 02:04:42 PM +0200 - backendLogger - DEBUG - Parent directory already exists: data\MBTA.
+07/22/2023 02:04:42 PM +0200 - backendLogger - DEBUG - date list generated: 20 Workday days in 07-2023.
+07/22/2023 02:04:42 PM +0200 - backendLogger - INFO - Processing GTFS data...
+07/22/2023 02:04:42 PM +0200 - backendLogger - INFO - loading gtfs data
+07/22/2023 02:04:43 PM +0200 - backendLogger - INFO - Valid GTFS date range: 2023-07-13 - 2023-08-26.
+07/22/2023 02:04:43 PM +0200 - backendLogger - INFO - loaded GTFS data for 13 days
+07/22/2023 02:04:53 PM +0200 - backendLogger - INFO - validating gtfs data
+07/22/2023 02:04:55 PM +0200 - backendLogger - DEBUG - number of timepoint: 11866
+07/22/2023 02:04:55 PM +0200 - backendLogger - DEBUG - adding branchpoints to GTFS data
+07/22/2023 02:05:03 PM +0200 - backendLogger - DEBUG - number of branchpoint: 80481
+07/22/2023 02:05:03 PM +0200 - backendLogger - INFO - generating patterns from GTFS stop coordinates
+07/22/2023 02:05:04 PM +0200 - backendLogger - DEBUG - Summary of unique trip hashes: 
+trip_id     12545
+stop_ids      503
+hash          503
+dtype: int64
+07/22/2023 02:05:06 PM +0200 - backendLogger - INFO - improving patterns with GTFS shapes
+07/22/2023 02:05:12 PM +0200 - backendLogger - DEBUG - Parent directory already exists: frontend\static\inputs\MBTA\timepoints.
+07/22/2023 02:05:13 PM +0200 - backendLogger - DEBUG - Parent directory already exists: frontend\static\inputs\MBTA\lookup.
+07/22/2023 02:05:13 PM +0200 - backendLogger - INFO - Generating shapes...
+07/22/2023 02:05:13 PM +0200 - backendLogger - DEBUG - total number of patterns: 523
+07/22/2023 02:05:46 PM +0200 - backendLogger - DEBUG - Created parent directory: frontend\static\inputs\MBTA\shapes.
+07/22/2023 02:05:46 PM +0200 - backendLogger - DEBUG - Number of patterns matched: 523. Number of patterns skipped: 0
+07/22/2023 02:05:46 PM +0200 - backendLogger - DEBUG - Parent directory already exists: frontend\static\inputs\MBTA\shapes.
+07/22/2023 02:05:47 PM +0200 - backendLogger - INFO - Calculating metrics...
+07/22/2023 02:05:48 PM +0200 - backendLogger - INFO - calculating stop spacing
+07/22/2023 02:05:53 PM +0200 - backendLogger - INFO - calculating scheduled headway
+07/22/2023 02:05:55 PM +0200 - backendLogger - INFO - calculating scheduled running time
+07/22/2023 02:05:55 PM +0200 - backendLogger - INFO - calculating scheduled speed
+07/22/2023 02:05:55 PM +0200 - backendLogger - INFO - Metrics calculation completed.
+07/22/2023 02:05:55 PM +0200 - backendLogger - INFO - Aggregating metrics...
+07/22/2023 02:06:16 PM +0200 - backendLogger - DEBUG - Created parent directory: data\MBTA\metrics.
+07/22/2023 02:06:16 PM +0200 - backendLogger - INFO - aggregating metrics for 10-min intervals
+07/22/2023 02:10:36 PM +0200 - backendLogger - DEBUG - Parent directory already exists: data\MBTA\metrics.
+07/22/2023 02:10:40 PM +0200 - backendLogger - DEBUG - Parent directory already exists: frontend\static\inputs\MBTA.
+07/22/2023 02:10:40 PM +0200 - backendLogger - INFO - ROVE backend process completed
+07/22/2023 02:13:46 PM +0200 - backendLogger - INFO - Starting ROVE backend processes for OV, 07-2023, Workday, GTFS mode. Shape Generation: True. Metric Calculation and Aggregation: True.
+07/22/2023 02:13:46 PM +0200 - backendLogger - INFO - Generating ROVE parameters...
+07/22/2023 02:13:46 PM +0200 - backendLogger - WARNING - Frontend config file not found. Creating a default frontend config file.
+07/22/2023 02:13:46 PM +0200 - backendLogger - DEBUG - Created parent directory: frontend\static\inputs\OV.
+07/22/2023 02:13:46 PM +0200 - backendLogger - WARNING - Backend config file not found. Creating a default backend config file.
+07/22/2023 02:13:46 PM +0200 - backendLogger - DEBUG - Parent directory already exists: data\OV.
+07/22/2023 02:15:25 PM +0200 - backendLogger - DEBUG - Parent directory already exists: data\OV.
+07/22/2023 02:33:21 PM +0200 - backendLogger - INFO - Starting ROVE backend processes for OV, 07-2023, Workday, GTFS mode. Shape Generation: True. Metric Calculation and Aggregation: True.
+07/22/2023 02:33:21 PM +0200 - backendLogger - INFO - Generating ROVE parameters...
+07/22/2023 02:33:21 PM +0200 - backendLogger - WARNING - Frontend config file not found. Creating a default frontend config file.
+07/22/2023 02:33:21 PM +0200 - backendLogger - DEBUG - Parent directory already exists: frontend\static\inputs\OV.
+07/22/2023 02:35:13 PM +0200 - backendLogger - INFO - Starting ROVE backend processes for OV, 07-2023, Workday, GTFS mode. Shape Generation: True. Metric Calculation and Aggregation: True.
+07/22/2023 02:35:13 PM +0200 - backendLogger - INFO - Generating ROVE parameters...
+07/22/2023 02:35:13 PM +0200 - backendLogger - WARNING - Frontend config file not found. Creating a default frontend config file.
+07/22/2023 02:35:13 PM +0200 - backendLogger - DEBUG - Parent directory already exists: frontend\static\inputs\OV.
+07/22/2023 02:35:13 PM +0200 - backendLogger - INFO - NL-NH
+07/22/2023 03:05:59 PM +0200 - backendLogger - INFO - Starting ROVE backend processes for OV, 07-2023, Workday, GTFS mode. Shape Generation: True. Metric Calculation and Aggregation: True.
+07/22/2023 03:05:59 PM +0200 - backendLogger - INFO - Generating ROVE parameters...
+07/22/2023 03:05:59 PM +0200 - backendLogger - WARNING - Frontend config file not found. Creating a default frontend config file.
+07/22/2023 03:05:59 PM +0200 - backendLogger - DEBUG - Parent directory already exists: frontend\static\inputs\OV.
+07/22/2023 03:05:59 PM +0200 - backendLogger - INFO - NL-NH
+07/22/2023 03:05:59 PM +0200 - backendLogger - INFO - None
+07/26/2023 05:42:25 PM +0200 - backendLogger - INFO - Starting ROVE backend processes for OV, 07-2023, Workday, GTFS mode. Shape Generation: True. Metric Calculation and Aggregation: True.
+07/26/2023 05:42:25 PM +0200 - backendLogger - INFO - Generating ROVE parameters...
+07/26/2023 05:42:25 PM +0200 - backendLogger - WARNING - Frontend config file not found. Creating a default frontend config file.
+07/26/2023 05:42:25 PM +0200 - backendLogger - DEBUG - Parent directory already exists: frontend\static\inputs\OV.
+07/26/2023 05:42:26 PM +0200 - backendLogger - INFO - NL-NH
+07/26/2023 05:46:50 PM +0200 - backendLogger - INFO - Starting ROVE backend processes for OV, 07-2023, Workday, GTFS mode. Shape Generation: True. Metric Calculation and Aggregation: True.
+07/26/2023 05:46:50 PM +0200 - backendLogger - INFO - Generating ROVE parameters...
+07/26/2023 05:46:50 PM +0200 - backendLogger - WARNING - Frontend config file not found. Creating a default frontend config file.
+07/26/2023 05:46:50 PM +0200 - backendLogger - DEBUG - Parent directory already exists: frontend\static\inputs\OV.
+07/26/2023 05:46:50 PM +0200 - backendLogger - INFO - NL-NH
+07/26/2023 05:46:50 PM +0200 - backendLogger - INFO - None
+07/26/2023 05:48:41 PM +0200 - backendLogger - INFO - Starting ROVE backend processes for OV, 07-2023, Workday, GTFS mode. Shape Generation: True. Metric Calculation and Aggregation: True.
+07/26/2023 05:48:41 PM +0200 - backendLogger - INFO - Generating ROVE parameters...
+07/26/2023 05:48:41 PM +0200 - backendLogger - WARNING - Frontend config file not found. Creating a default frontend config file.
+07/26/2023 05:48:41 PM +0200 - backendLogger - DEBUG - Parent directory already exists: frontend\static\inputs\OV.
+07/26/2023 05:48:41 PM +0200 - backendLogger - INFO - NL-NH
+07/26/2023 05:48:41 PM +0200 - backendLogger - INFO - None
+07/26/2023 05:49:14 PM +0200 - backendLogger - INFO - Starting ROVE backend processes for OV, 07-2023, Workday, GTFS mode. Shape Generation: True. Metric Calculation and Aggregation: True.
+07/26/2023 05:49:14 PM +0200 - backendLogger - INFO - Generating ROVE parameters...
+07/26/2023 05:49:14 PM +0200 - backendLogger - WARNING - Frontend config file not found. Creating a default frontend config file.
+07/26/2023 05:49:14 PM +0200 - backendLogger - DEBUG - Parent directory already exists: frontend\static\inputs\OV.
+07/26/2023 05:49:14 PM +0200 - backendLogger - INFO - NL
+07/26/2023 05:49:14 PM +0200 - backendLogger - INFO - <class 'workalendar.europe.netherlands.Netherlands'>
+07/26/2023 05:49:14 PM +0200 - backendLogger - DEBUG - date list generated: 21 Workday days in 07-2023.
+07/26/2023 05:49:14 PM +0200 - backendLogger - INFO - Processing GTFS data...
+07/26/2023 05:49:14 PM +0200 - backendLogger - INFO - loading gtfs data
+07/26/2023 05:49:53 PM +0200 - backendLogger - INFO - Valid GTFS date range: 2023-07-17 - 2023-12-09.
+07/26/2023 05:49:53 PM +0200 - backendLogger - INFO - loaded GTFS data for 11 days
+07/26/2023 05:53:43 PM +0200 - backendLogger - INFO - validating gtfs data
+07/26/2023 05:54:19 PM +0200 - backendLogger - DEBUG - number of timepoint: 314443
+07/26/2023 10:13:44 PM +0200 - backendLogger - DEBUG - adding branchpoints to GTFS data
+07/26/2023 10:15:29 PM +0200 - backendLogger - DEBUG - number of branchpoint: 1020079
+07/26/2023 10:15:29 PM +0200 - backendLogger - INFO - generating patterns from GTFS stop coordinates
+07/26/2023 10:15:36 PM +0200 - backendLogger - DEBUG - Summary of unique trip hashes: 
+trip_id     193065
+stop_ids      6336
+hash          6336
+dtype: int64
+07/26/2023 10:15:49 PM +0200 - backendLogger - INFO - improving patterns with GTFS shapes
+08/17/2023 02:12:18 PM -0400 - backendLogger - INFO - Starting ROVE backend processes for OV, 07-2023, Workday, GTFS mode. Shape Generation: True. Metric Calculation and Aggregation: True.
+08/17/2023 02:12:18 PM -0400 - backendLogger - INFO - Generating ROVE parameters...
+08/17/2023 02:12:18 PM -0400 - backendLogger - WARNING - Frontend config file not found. Creating a default frontend config file.
+08/17/2023 02:12:18 PM -0400 - backendLogger - DEBUG - Parent directory already exists: frontend\static\inputs\OV.
+08/17/2023 02:12:18 PM -0400 - backendLogger - DEBUG - date list generated: 21 Workday days in 07-2023.
+08/17/2023 02:12:18 PM -0400 - backendLogger - INFO - Processing GTFS data...
+08/17/2023 02:12:18 PM -0400 - backendLogger - INFO - loading gtfs data
+08/17/2023 02:12:33 PM -0400 - backendLogger - INFO - Valid GTFS date range: 2023-07-17 - 2023-12-09.
+08/17/2023 02:12:33 PM -0400 - backendLogger - INFO - loaded GTFS data for 11 days
+08/17/2023 02:13:56 PM -0400 - backendLogger - INFO - validating gtfs data
+08/17/2023 02:24:12 PM -0400 - backendLogger - DEBUG - number of timepoint: 314443
+08/17/2023 02:24:12 PM -0400 - backendLogger - DEBUG - adding branchpoints to GTFS data
+08/17/2023 02:25:16 PM -0400 - backendLogger - DEBUG - number of branchpoint: 1020079
+08/17/2023 02:25:16 PM -0400 - backendLogger - INFO - generating patterns from GTFS stop coordinates
+08/17/2023 02:25:22 PM -0400 - backendLogger - DEBUG - Summary of unique trip hashes: 
+trip_id     193065
+stop_ids      6336
+hash          6336
+dtype: int64
+08/17/2023 02:25:35 PM -0400 - backendLogger - INFO - improving patterns with GTFS shapes
+08/25/2023 09:28:56 AM -0400 - backendLogger - INFO - Starting ROVE backend processes for MBTA, 07-2023, Workday, GTFS-AVL mode. Shape Generation: True. Metric Calculation and Aggregation: True.
+08/25/2023 09:28:56 AM -0400 - backendLogger - INFO - Generating ROVE parameters...
+08/25/2023 09:28:57 AM -0400 - backendLogger - DEBUG - date list generated: 20 Workday days in 07-2023.
+08/25/2023 09:28:57 AM -0400 - backendLogger - INFO - Processing GTFS data...
+08/25/2023 09:28:57 AM -0400 - backendLogger - INFO - loading gtfs data
+08/25/2023 09:28:58 AM -0400 - backendLogger - INFO - Valid GTFS date range: 2023-07-13 - 2023-08-26.
+08/25/2023 09:28:58 AM -0400 - backendLogger - INFO - loaded GTFS data for 13 days
+08/25/2023 09:29:53 AM -0400 - backendLogger - INFO - Starting ROVE backend processes for OV, 07-2023, Workday, GTFS-AVL mode. Shape Generation: True. Metric Calculation and Aggregation: True.
+08/25/2023 09:29:53 AM -0400 - backendLogger - INFO - Generating ROVE parameters...
+08/25/2023 09:29:53 AM -0400 - backendLogger - WARNING - Frontend config file not found. Creating a default frontend config file.
+08/25/2023 09:29:53 AM -0400 - backendLogger - DEBUG - Parent directory already exists: frontend\static\inputs\OV.
+08/25/2023 09:29:54 AM -0400 - backendLogger - DEBUG - date list generated: 21 Workday days in 07-2023.
+08/25/2023 09:29:54 AM -0400 - backendLogger - INFO - Processing GTFS data...
+08/25/2023 09:29:54 AM -0400 - backendLogger - INFO - loading gtfs data
+08/25/2023 09:31:32 AM -0400 - backendLogger - INFO - Valid GTFS date range: 2023-07-17 - 2023-12-09.
+08/25/2023 09:31:32 AM -0400 - backendLogger - INFO - loaded GTFS data for 11 days
+08/25/2023 09:40:26 AM -0400 - backendLogger - INFO - validating gtfs data
+08/25/2023 09:40:52 AM -0400 - backendLogger - DEBUG - number of timepoint: 314443
+08/25/2023 09:40:52 AM -0400 - backendLogger - DEBUG - adding branchpoints to GTFS data
+08/25/2023 09:44:54 AM -0400 - backendLogger - DEBUG - number of branchpoint: 1020079
+08/25/2023 09:44:54 AM -0400 - backendLogger - INFO - generating patterns from GTFS stop coordinates
+08/25/2023 09:45:58 AM -0400 - backendLogger - DEBUG - Summary of unique trip hashes: 
+trip_id     193065
+stop_ids      6336
+hash          6336
+dtype: int64
+08/25/2023 09:47:03 AM -0400 - backendLogger - INFO - improving patterns with GTFS shapes
+08/30/2023 11:40:52 AM -0400 - backendLogger - INFO - Starting ROVE backend processes for OV, 07-2023, Workday, GTFS-AVL mode. Shape Generation: True. Metric Calculation and Aggregation: True.
+08/30/2023 11:40:52 AM -0400 - backendLogger - INFO - Generating ROVE parameters...
+08/30/2023 11:40:52 AM -0400 - backendLogger - WARNING - Frontend config file not found. Creating a default frontend config file.
+08/30/2023 11:40:52 AM -0400 - backendLogger - DEBUG - Parent directory already exists: frontend\static\inputs\OV.
+08/30/2023 11:40:52 AM -0400 - backendLogger - DEBUG - date list generated: 21 Workday days in 07-2023.
+08/30/2023 11:40:52 AM -0400 - backendLogger - INFO - Processing GTFS data...
+08/30/2023 11:40:52 AM -0400 - backendLogger - INFO - loading gtfs data
+08/30/2023 11:41:43 AM -0400 - backendLogger - INFO - Valid GTFS date range: 2023-07-17 - 2023-12-09.
+08/30/2023 11:41:43 AM -0400 - backendLogger - INFO - loaded GTFS data for 11 days
+08/30/2023 11:45:36 AM -0400 - backendLogger - INFO - validating gtfs data
+08/30/2023 11:45:48 AM -0400 - backendLogger - DEBUG - number of timepoint: 314443
+08/30/2023 11:45:48 AM -0400 - backendLogger - DEBUG - adding branchpoints to GTFS data
+08/30/2023 11:48:02 AM -0400 - backendLogger - DEBUG - number of branchpoint: 1020079
+08/30/2023 11:48:02 AM -0400 - backendLogger - INFO - generating patterns from GTFS stop coordinates
+08/30/2023 11:48:22 AM -0400 - backendLogger - DEBUG - Summary of unique trip hashes: 
+trip_id     193065
+stop_ids      6336
+hash          6336
+dtype: int64
+08/30/2023 11:48:44 AM -0400 - backendLogger - INFO - improving patterns with GTFS shapes
+08/30/2023 11:48:51 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:48:51 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:48:51 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:48:51 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:48:51 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:48:53 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:48:53 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:48:54 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:48:54 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:48:54 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:48:59 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:48:59 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:48:59 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:48:59 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:48:59 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:48:59 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:48:59 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:48:59 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:48:59 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:48:59 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:05 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:05 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:10 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:10 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:10 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:10 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:10 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:10 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:10 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:11 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:12 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:12 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:12 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:12 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:12 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:12 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:12 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:12 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:12 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:12 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:12 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:12 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:12 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:12 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:12 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:12 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:12 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:12 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:12 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:12 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:12 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:12 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:12 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:12 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:12 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:12 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:12 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:12 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:12 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:12 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:12 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:12 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:12 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:12 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:12 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:12 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:12 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:12 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:12 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:12 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:12 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:12 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:12 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:12 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:12 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:12 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:12 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:12 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:12 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:12 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:12 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:12 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:12 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:12 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:12 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:15 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:15 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:15 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:15 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:16 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:16 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:16 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:16 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:17 AM -0400 - backendLogger - DEBUG - nan: shape key nan is not a number
+08/30/2023 11:49:36 AM -0400 - backendLogger - DEBUG - Created parent directory: frontend\static\inputs\OV\timepoints.
+08/30/2023 11:49:39 AM -0400 - backendLogger - DEBUG - Created parent directory: frontend\static\inputs\OV\lookup.
+08/30/2023 11:49:41 AM -0400 - backendLogger - INFO - Generating shapes...
+08/30/2023 11:49:50 AM -0400 - backendLogger - DEBUG - total number of patterns: 6750
+08/30/2023 12:17:45 PM -0400 - backendLogger - DEBUG - Created parent directory: frontend\static\inputs\OV\shapes.
+08/30/2023 12:18:12 PM -0400 - backendLogger - DEBUG - Number of patterns matched: 6750. Number of patterns skipped: 0
+08/30/2023 12:18:13 PM -0400 - backendLogger - DEBUG - Parent directory already exists: frontend\static\inputs\OV\shapes.
+08/30/2023 12:18:37 PM -0400 - backendLogger - INFO - loading avl data
+08/30/2023 12:18:37 PM -0400 - backendLogger - ERROR - Invalid file: data/OV/avl/AVL_OV_07_2023.csv. Please double check a valid file is located at the specified location.
+08/30/2023 12:18:37 PM -0400 - backendLogger - DEBUG - loading AVL by months instead.
+08/30/2023 12:18:37 PM -0400 - backendLogger - ERROR - Invalid file: data/OV/avl/AVL_OV_07_2023.csv. Please double check a valid file is located at the specified location.
+08/30/2023 12:18:37 PM -0400 - backendLogger - INFO - validating avl data
+11/08/2023 06:11:23 PM -0500 - backendLogger - INFO - Starting ROVE backend processes for OV, 07-2023, Workday, GTFS mode. Shape Generation: True. Metric Calculation and Aggregation: True.
+11/08/2023 06:11:23 PM -0500 - backendLogger - INFO - Generating ROVE parameters...
+11/08/2023 06:11:23 PM -0500 - backendLogger - WARNING - Frontend config file not found. Creating a default frontend config file.
+11/08/2023 06:11:23 PM -0500 - backendLogger - DEBUG - Parent directory already exists: frontend\static\inputs\OV.
+11/08/2023 06:11:23 PM -0500 - backendLogger - DEBUG - date list generated: 21 Workday days in 07-2023.
+11/08/2023 06:11:23 PM -0500 - backendLogger - INFO - Processing GTFS data...
+11/08/2023 06:11:23 PM -0500 - backendLogger - INFO - loading gtfs data
+11/08/2023 06:12:12 PM -0500 - backendLogger - INFO - Valid GTFS date range: 2023-07-17 - 2023-12-09.
+11/08/2023 06:12:12 PM -0500 - backendLogger - INFO - loaded GTFS data for 11 days
+11/08/2023 06:15:55 PM -0500 - backendLogger - INFO - validating gtfs data
+11/08/2023 06:16:07 PM -0500 - backendLogger - DEBUG - number of timepoint: 314443
+11/08/2023 06:16:07 PM -0500 - backendLogger - DEBUG - adding branchpoints to GTFS data
+11/08/2023 06:18:18 PM -0500 - backendLogger - DEBUG - number of branchpoint: 1020079
+11/08/2023 06:18:18 PM -0500 - backendLogger - INFO - generating patterns from GTFS stop coordinates
+11/08/2023 06:18:38 PM -0500 - backendLogger - DEBUG - Summary of unique trip hashes: 
+trip_id     193065
+stop_ids      6336
+hash          6336
+dtype: int64
+11/08/2023 06:19:00 PM -0500 - backendLogger - INFO - improving patterns with GTFS shapes
+11/08/2023 06:19:06 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:06 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:06 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:06 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:06 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:08 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:08 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:09 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:09 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:09 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:14 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:14 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:14 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:14 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:14 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:14 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:14 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:14 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:14 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:14 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:20 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:20 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:24 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:24 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:24 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:24 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:24 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:24 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:24 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:25 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:26 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:26 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:26 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:26 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:26 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:26 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:26 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:26 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:26 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:26 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:26 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:26 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:26 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:26 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:26 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:26 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:26 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:26 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:26 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:26 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:26 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:26 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:26 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:26 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:26 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:26 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:26 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:26 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:26 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:26 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:26 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:26 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:26 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:26 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:26 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:26 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:26 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:26 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:26 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:26 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:26 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:26 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:26 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:26 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:26 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:26 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:26 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:26 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:26 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:26 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:26 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:26 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:26 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:26 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:26 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:29 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:29 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:29 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:29 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:31 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:31 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:31 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:31 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:31 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:31 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:31 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:31 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:31 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:31 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:19:32 PM -0500 - backendLogger - DEBUG - nan: shape key nan is not a number
+11/08/2023 06:20:01 PM -0500 - backendLogger - DEBUG - Parent directory already exists: frontend\static\inputs\OV\timepoints.
+11/08/2023 06:20:04 PM -0500 - backendLogger - DEBUG - Parent directory already exists: frontend\static\inputs\OV\lookup.
+11/08/2023 06:20:06 PM -0500 - backendLogger - INFO - Generating shapes...
+11/08/2023 06:20:17 PM -0500 - backendLogger - DEBUG - total number of patterns: 6750
+11/08/2023 06:51:55 PM -0500 - backendLogger - DEBUG - Parent directory already exists: frontend\static\inputs\OV\shapes.
+11/08/2023 06:52:23 PM -0500 - backendLogger - DEBUG - Number of patterns matched: 6750. Number of patterns skipped: 0
+11/08/2023 06:52:25 PM -0500 - backendLogger - DEBUG - Parent directory already exists: frontend\static\inputs\OV\shapes.
+11/08/2023 06:52:53 PM -0500 - backendLogger - INFO - Calculating metrics...
+11/08/2023 06:53:08 PM -0500 - backendLogger - INFO - calculating stop spacing
+11/08/2023 06:57:02 PM -0500 - backendLogger - INFO - calculating scheduled headway
+11/08/2023 06:59:10 PM -0500 - backendLogger - INFO - calculating scheduled running time
+11/08/2023 06:59:15 PM -0500 - backendLogger - INFO - calculating scheduled speed
+11/08/2023 06:59:15 PM -0500 - backendLogger - INFO - Metrics calculation completed.
+11/08/2023 06:59:15 PM -0500 - backendLogger - INFO - Aggregating metrics...
+11/08/2023 07:06:10 PM -0500 - backendLogger - DEBUG - Created parent directory: data\OV\metrics.
+11/08/2023 07:06:12 PM -0500 - backendLogger - INFO - aggregating metrics for 10-min intervals
+11/08/2023 08:36:05 PM -0500 - backendLogger - DEBUG - Parent directory already exists: data\OV\metrics.
+11/08/2023 08:45:07 PM -0500 - backendLogger - DEBUG - Parent directory already exists: frontend\static\inputs\OV.
+11/08/2023 08:45:07 PM -0500 - backendLogger - INFO - ROVE backend process completed
