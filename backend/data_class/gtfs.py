@@ -399,7 +399,12 @@ class GTFS():
                 example_shape = -1
                 continue
             
-            shape_coords = shape_coords_lookup[example_shape]
+            try:
+                shape_coords = shape_coords_lookup[example_shape]
+            except KeyError as err:
+                logger.debug(f'{err}: shape key {example_shape} is not a number')
+                continue
+            
             last_stop_match_index = 0
             # For each segment, find the closest match of start and end stops in the list of shape coordinates.
             #   If more than two matched coordinates in GTFS shapes can be found, then use GTFS shapes.
